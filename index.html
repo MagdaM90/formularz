@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Nagłówek-->
+    <Header>
+        <div id="header"></div>
+        <h1 id="simple">A Simple Form</h1>
+        <h2 id="fundament">Form Fundamentals</h2>
+    </Header>
+
+    <!--Customer Info section-->
+    <fieldset>
+        <legend>Customer Info</legend>
+        <div class="form">
+            <label>Name: <input type="text" placeholder="Enter your name" autofocus required></label>
+            <label>Telephone: <input type="tel" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}]" required></label>
+            <label>Email address: <input type="email" placeholder="Enter your email address" multiple required></label>
+        </div>
+    </fieldset>
+
+    <!--Books section-->
+    <fieldset>
+        <legend>Books</legend>
+        <input type="text" name="book" id="book">
+        <label>Quantity (Maximum5):<input type="number" min="1" max="5" id="quantity"></label>
+    </fieldset>
+    <input type="submit" id="submit" value="Submit">
+</body>
+
+</html>
