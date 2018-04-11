@@ -21,17 +21,21 @@ fieldset {
     padding: 10px;
     margin-left: 40px;
 }
+
 .form input:not([type="submit"]),
 #book {
     width: 50%;
 }
+
 #quantity {
-    width: 20%;
+    width: 18%;
 }
+
 #book {
     margin-left: 40px;
     margin-bottom: 15px;
 }
+
 #submit {
     margin-top: 5px;
     border-radius: 5px;
