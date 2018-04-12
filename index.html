@@ -28,13 +28,14 @@
     <!--Books section-->
     <fieldset>
         <legend>Books</legend>
-        <select name="book" id="book">
-    <option value="don">Don Quixote</option>
-    <option value="war">War and Peace</option>
-    <option value="road">On the road</option>
-    <option value="trial">The Trial</option>
-    <option value="vanity">Vanity Fair</option>
-    </select>
+        <input list="book">
+        <datalist id="book">
+    <option value="Don Quixote"></option>
+    <option value="War and Peace"></option>
+    <option value="On the road"></option>
+    <option value="The Trial"></option>
+    <option value="Vanity Fair"></option>
+    </datalist>
         <label>Quantity (Maximum5):<input type="number" min="1" max="5" id="quantity"></label>
     </fieldset>
     <input type="submit" id="submit" value="Submit">
